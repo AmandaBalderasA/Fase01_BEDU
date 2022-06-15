@@ -17,14 +17,18 @@ button{
     color: #fff;
     background-color: #025157;
 }
+
 .header{
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 40px 20px 0;
+    font-size: 0;
+    height: 45px;
+    font-family: sans-serif;
 }
 
 li{
     display: inline;
+    margin-left: 25px;
+    margin-left: 25px;
 }
 
 .header > *{
@@ -32,23 +36,52 @@ li{
     font-size: 16px;
     line-height: 45px;
     height: 100%;
+    color: #67b54b;
+    
+}
+
+.actions button{
+    background-color: #67b54b;
+    color:#fff;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 5px;
+    border: none;
+    
+
 }
 
 .logo > img {
-    width: 30%;
+    width: 10%;
 }
 
 
 .navbar{
     width: 70%;
     color:#025157;
-    text-align: center;
+    text-align: left;
     font-weight: 500;
 }
 
 .actions{
     width: 15%;
-    text-align: right;
+    text-align: left;
     font-size: 14px;
     font-weight: 600;
+    
+}
+
+.actions > a{
+    color:#67b54b;
+}
+
+.actions > *{
+    margin: 0 10px;
+}
+
+.main{
+    margin-top: 140px;
+    text-align: center;
 }
